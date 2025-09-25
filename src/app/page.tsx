@@ -13,7 +13,7 @@ export default function Home() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        to: "50684337919", 
+        to: "50672095384", 
         message, 
       }),
     });
@@ -36,7 +36,7 @@ export default function Home() {
       />
       <br />
       <button onClick={sendMsg} disabled={loading}>
-        {loading ? "Enviando..." : "Enviar a +506 8433 7919"}
+        {loading ? "Enviando..." : "Enviar a +506 72095384"}
       </button>
     </div>
   );
